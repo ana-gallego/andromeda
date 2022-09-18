@@ -2,7 +2,7 @@ name: andromeda_responsive_feature
 description: A new brick created with the Mason CLI.
 repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda_responsive_feature
 
-version: 0.1.0+2
+version: 0.1.0+3
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
@@ -17,5 +17,5 @@ vars:
   page:
     type: string
     description: page name
-    default: main
+    default: new
     prompt: page name

@@ -1,5 +1,10 @@
-class {{page.pascalCase()}}MobileLayout extends ConsumerWidget {
-  const {{page.pascalCase()}}MobileLayout({Key? key}) : super(key: key);
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../{{page.snakeCase()}}_controller.dart';
+
+class {{page.pascalCase()}}PageMobileLayout extends ConsumerWidget {
+  const {{page.pascalCase()}}PageMobileLayout({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

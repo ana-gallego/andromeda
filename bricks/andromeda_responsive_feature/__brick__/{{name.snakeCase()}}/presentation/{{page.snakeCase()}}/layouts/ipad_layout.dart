@@ -1,5 +1,10 @@
-class {{page.pascalCase()}}IpadLayout extends ConsumerWidget {
-  const {{page.pascalCase()}}IpadLayout({Key? key}) : super(key: key);
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../{{page.snakeCase()}}_controller.dart';
+
+class {{page.pascalCase()}}PageIpadLayout extends ConsumerWidget {
+  const {{page.pascalCase()}}PageIpadLayout({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

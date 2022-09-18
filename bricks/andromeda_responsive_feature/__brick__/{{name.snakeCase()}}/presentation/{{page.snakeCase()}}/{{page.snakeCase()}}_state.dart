@@ -1,8 +1,8 @@
-class {{name.pascalCase()}}State {
+class {{page.pascalCase()}}State {
 
-  {{name.pascalCase()}}State();
+  {{page.pascalCase()}}State();
 
-  {{name.pascalCase()}}State copyWith() {
-    return {{name.pascalCase()}}State();
+  {{page.pascalCase()}}State copyWith() {
+    return {{page.pascalCase()}}State();
   }
 }

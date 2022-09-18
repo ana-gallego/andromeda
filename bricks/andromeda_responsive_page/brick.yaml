@@ -1,0 +1,14 @@
+name: andromeda_responsive_page
+description: A new brick created with the Mason CLI.
+repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda_responsive_page
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Page name
+    default: counter
+    prompt: Page name

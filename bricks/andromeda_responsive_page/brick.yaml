@@ -7,7 +7,7 @@ environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
 
 vars:
-  name:
+  page:
     type: string
     description: Page name
     default: counter

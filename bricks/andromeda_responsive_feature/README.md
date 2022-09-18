@@ -12,10 +12,10 @@ mason make andromeda_responsive_page --name example --view counter
 
 ## Variables ✨
 
-| Variable | Description                 | Default             | Type     |
-| -------- | --------------------------- | --------------------| -------- |
-| `name`   | The name of the feature     | `new feature`       | `string` |
-| `type`   | The type of the first page  | `new`               | `string` |
+| Variable | Description                 | Default         | Type     |
+| -------- | --------------------------- | ----------------| -------- |
+| `name`   | The name of the feature     | `example`       | `string` |
+| `type`   | The type of the first page  | `counter`       | `string` |
 
 ## Output 📦
 
@@ -33,7 +33,7 @@ mason make andromeda_responsive_page --name example --view counter
             │   ├── mobile_layout.dart
             │   └── layouts.dart
             ├── widgets
-            │    └── example.dart
+            │    └── greeting.dart
             ├── counter_page.dart
             ├── counter_controller.dart
             └── counter_state.dart

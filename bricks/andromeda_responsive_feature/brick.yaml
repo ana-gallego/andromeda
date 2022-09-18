@@ -11,11 +11,11 @@ vars:
   name:
     type: string
     description: feature name
-    default: new feature
+    default: example
     prompt: feature name
 
   page:
     type: string
     description: page name
-    default: new
+    default: counter
     prompt: page name

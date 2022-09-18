@@ -1,6 +1,7 @@
-import 'package:epik_clientes/src/tools/colors.dart';
-import 'package:epik_clientes/src/widgets/texts/custom_text.dart';
 import 'package:flutter/material.dart';
+
+import '../../tools/tools.dart';
+import '../texts/custom_text.dart';
 
 class SimpleButton extends StatelessWidget {
   final Function onTap;

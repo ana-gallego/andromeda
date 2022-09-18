@@ -1,4 +1,3 @@
-import 'package:epik_clientes/src/tools/colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomText extends StatelessWidget {

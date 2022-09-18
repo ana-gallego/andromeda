@@ -1,4 +1,3 @@
-import 'package:epik_clientes/src/widgets/texts/custom_text.dart';
 import 'package:flutter/material.dart';
 
 import '../../tools/tools.dart';
@@ -107,12 +106,7 @@ class CustomTextFormFieldState extends State<CustomTextFormField> {
           setState(() {});
         },
         child: const SizedBox(width: 0, height: 0),
-      ) /* SvgPicture.asset(
-            obscureText ? icons.showPassword : icons.hidePassword,
-            color: colors.textColor,
-            height: 16,
-          )) */
-          ;
+      );
     }
 
     return Container(width: 0);

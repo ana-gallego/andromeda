@@ -1,5 +1,6 @@
-import 'package:epik_clientes/src/tools/tools.dart';
 import 'package:flutter/material.dart';
+
+import 'tools/tools.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Epik Clientes',
+      title: 'Andromeda',
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData(
           brightness: Brightness.dark,

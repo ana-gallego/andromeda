@@ -1,7 +1,7 @@
 name: andromeda_responsive_page
-description: A new brick created with the Mason CLI.
+description: A brick to create boilerplate code for new responsive page with riverpod.
 repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda_responsive_page
-version: 0.0.1+1
+version: 0.1.0+2
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"

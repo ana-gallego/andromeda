@@ -34,3 +34,7 @@ mason make andromeda
 │   └── app.dart
 └── main.dart
 ```
+
+## 🚧 Requirements
+
+* Make sure you have riverpod & go_router packages inside your `pubspec.yaml` file.

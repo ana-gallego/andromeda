@@ -1,6 +1,6 @@
 name: andromeda_feature
-description: A new brick created with the Mason CLI.
-version: 0.1.0+2
+description: A brick to create boilerplate code for new feature with riverpod.
+version: 0.1.0+4
 repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda_feature
 
 environment:

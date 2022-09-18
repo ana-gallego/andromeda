@@ -26,3 +26,7 @@ mason make andromeda_page --name counter
     ├── counter_controller.dart
     └── counter_state.dart
 ```
+
+## 🚧 Requirements
+
+* Make sure you have riverpod package inside your `pubspec.yaml` file.

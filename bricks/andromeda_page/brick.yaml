@@ -1,8 +1,8 @@
 name: andromeda_page
-description: A new brick created with the Mason CLI.
+description: A brick to create boilerplate code for new page with riverpod.
 repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda_feature
 
-version: 0.1.0+1
+version: 0.1.0+3
 
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"

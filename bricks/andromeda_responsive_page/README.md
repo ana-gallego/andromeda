@@ -31,3 +31,47 @@ mason make andromeda_responsive_page --name counter
     ├── counter_controller.dart
     └── counter_state.dart
 ```
+
+## 🚧 Requirements
+
+* Make sure you have riverpod package inside your `pubspec.yaml` file.
+
+* Make sure you have `ResponsivePage` inside your code:
+
+```dart
+class ResponsivePage extends StatelessWidget {
+  final Widget desktop, ipad, mobile;
+  const ResponsivePage(
+      {Key? key,
+      required this.desktop,
+      required this.ipad,
+      required this.mobile})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    switch (deviceByWidth(context)) {
+      case Device.desktop:
+        return desktop;
+      case Device.ipad:
+        return ipad;
+      case Device.mobile:
+        return mobile;
+    }
+  }
+
+  Device deviceByWidth(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    if (width <= 550) return Device.mobile;
+    if (width <= 768) return Device.ipad;
+    if (width <= 1440) return Device.desktop;
+    return Device.desktop;
+  }
+}
+
+enum Device {
+  desktop,
+  ipad,
+  mobile,
+}
+```

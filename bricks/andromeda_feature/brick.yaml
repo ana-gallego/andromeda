@@ -1,0 +1,20 @@
+name: andromeda_feature
+description: A new brick created with the Mason CLI.
+version: 0.1.0+2
+repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda_feature
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: feature name
+    default: new feature
+    prompt: feature name
+
+  page:
+    type: string
+    description: page name
+    default: main
+    prompt: page name

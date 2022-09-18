@@ -1,0 +1,9 @@
+name: andromeda
+description: A new brick created with the Mason CLI.
+repository: https://github.com/ana-gallego/andromeda/tree/master/bricks/andromeda
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:

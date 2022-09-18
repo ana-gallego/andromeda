@@ -11,5 +11,5 @@ vars:
   name:
     type: string
     description: Page name
-    default: Dash
+    default: counter
     prompt: Page name

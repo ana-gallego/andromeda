@@ -2,12 +2,12 @@
 
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
-Generate a new Flutter feature with riverpod.
+Generate a new Flutter responsivefeature with riverpod.
 
 ## Usage 🚀
 
 ```sh
-mason make andromeda_responsive_page --name example --view counter
+mason make andromeda_responsive_feature --name example --view counter
 ```
 
 ## Variables ✨
